@@ -3,3 +3,26 @@
 @media(max-width:600px){
   body{overflow-x:hidden}.app{width:100%;padding:0 14px}header{height:auto;min-height:64px;padding:10px 0;gap:8px;align-items:flex-start}.brand{padding-top:2px}.brand span{width:32px;height:32px}nav{flex:1;justify-content:flex-end;gap:2px;overflow-x:auto;scrollbar-width:none}nav::-webkit-scrollbar{display:none}nav button{white-space:nowrap;font-size:9px;padding:8px 7px;min-height:36px}.hero{padding:32px 0 22px}.hero h1{font-size:30px;line-height:1.05;letter-spacing:-1.3px}.hero>span{font-size:12px}.hero .primary{width:100%;min-height:44px}.stats{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.stats article{padding:14px;min-width:0}.stats strong{font-size:24px}.grid{gap:9px}.card{padding:16px}.cardhead{gap:8px}.legend{max-width:90px;text-align:right}.forecast{display:flex;overflow-x:auto;gap:7px;padding:2px 0 8px;scroll-snap-type:x proximity;-webkit-overflow-scrolling:touch}.day{flex:0 0 82px;min-height:112px;scroll-snap-align:start}.pagehead{padding:32px 0 18px;align-items:center;gap:10px}.pagehead h1{font-size:25px}.pagehead .primary{white-space:nowrap;padding:10px 11px!important}.filters,.two{grid-template-columns:1fr;gap:7px}.filters select,input,select{width:100%;font-size:16px;min-height:44px}.deadline{grid-template-columns:48px minmax(0,1fr);gap:10px;padding:14px}.datebox{padding-right:8px}.deadline h3{font-size:14px;line-height:1.35;overflow-wrap:anywhere}.deadline p{font-size:10px}.badges{flex-wrap:wrap}.itemactions{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr}.itemactions button{min-height:38px;font-size:10px}.clash{padding:15px}.clash h3{font-size:14px}.clash p{font-size:11px}.actions{display:grid;grid-template-columns:1fr 1fr}.actions button{min-height:44px}dialog{width:calc(100vw - 24px);max-height:90vh;overflow:auto;padding:18px;margin:auto}footer{padding:24px 5px}}
 @media(max-width:380px){.app{padding:0 10px}nav button{font-size:8px;padding:7px 5px}.hero h1{font-size:27px}.stats article{padding:12px}.pagehead{align-items:flex-end}.pagehead h1{font-size:23px}}
+
+/* Mobile UX v2 — phone layout, not scaled desktop */
+@media(max-width:600px){
+ html{font-size:16px}body{background:#f5f6f8}.app{padding:0 16px;max-width:none}
+ header{position:sticky;top:0;z-index:20;margin:0 -16px;padding:10px 16px;background:rgba(245,246,248,.96);backdrop-filter:blur(10px);border-bottom:1px solid #e2e5ea;align-items:center}
+ .brand span{width:38px;height:38px;border-radius:12px}.brand b{display:none}
+ nav{justify-content:flex-end;overflow:visible}nav button{font-size:12px;padding:10px 11px;min-height:42px;border-radius:11px}
+ .hero{padding:34px 0 24px}.hero p{font-size:10px;letter-spacing:1.5px}.hero h1{font-size:36px;line-height:1.08;letter-spacing:-1.5px;margin:8px 0 12px}.hero>span{font-size:14px;line-height:1.55}.hero .primary{font-size:14px;min-height:50px;border-radius:12px!important;margin-top:22px}
+ .stats{gap:10px}.stats article{padding:18px 16px;border-radius:16px;min-height:116px}.stats small{font-size:9px}.stats strong{font-size:30px;margin:8px 0}.stats span{font-size:10px;line-height:1.35}
+ .grid{margin-top:10px;gap:10px}.card{padding:18px;border-radius:17px}.card h2{font-size:21px}.card small{font-size:9px}.cardhead{align-items:flex-start}.legend{font-size:9px;line-height:1.4}
+ .forecast{margin:4px -18px 0;padding:4px 18px 12px;gap:9px}.day{flex-basis:100px;min-height:135px;padding:13px;border-radius:14px}.day b{font-size:12px}.day strong{font-size:28px}.day span{font-size:10px}
+ .clashmini{padding:12px 12px;margin:9px 0;border-left-width:4px}.clashmini b{font-size:13px;margin-bottom:4px}.clashmini span{font-size:11px;line-height:1.4;display:block}
+ .pagehead{padding:30px 0 18px}.pagehead p{font-size:9px}.pagehead h1{font-size:29px}.pagehead .primary{min-height:44px;font-size:12px}
+ .filters{gap:9px}.filters select{min-height:48px;border-radius:11px;padding:0 12px}
+ .deadline{grid-template-columns:56px minmax(0,1fr);padding:16px 14px;gap:12px;border-radius:15px}.datebox strong{font-size:25px}.datebox span{font-size:10px}.deadline h3{font-size:15px}.deadline p{font-size:11px}.badge{font-size:9px;padding:5px 8px}.itemactions button{font-size:11px;min-height:42px;border-radius:10px}
+ .clash{padding:18px 16px;border-radius:15px}.severity{font-size:9px}.clash h3{font-size:17px;margin-top:5px}.clash p{font-size:12px;line-height:1.55}
+ .empty{font-size:13px;padding:32px 12px}
+ dialog{border-radius:20px;padding:20px;width:calc(100vw - 24px)}dialog h2{font-size:23px}label{font-size:12px}label input,label select{font-size:16px;min-height:48px}.actions button{font-size:13px}
+ footer{font-size:10px;padding:28px 8px 40px}
+}
+@media(max-width:390px){
+ .app{padding:0 13px}header{margin:0 -13px;padding-left:13px;padding-right:13px}nav button{font-size:11px;padding:9px 8px}.hero h1{font-size:32px}.hero>span{font-size:13px}.stats article{padding:15px 13px}.stats strong{font-size:27px}.pagehead h1{font-size:26px}
+}
