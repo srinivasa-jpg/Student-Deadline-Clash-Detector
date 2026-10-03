@@ -19,3 +19,13 @@ Each deadline contributes a priority score (1–3) plus an effort score (1–3).
 
 ## Live Demo
 🌐 https://student-deadline-clash-detector.onrender.com
+
+
+## Version history
+- V1 — Core: deadline pressure and clash detection.
+- V2 — Mobile UX: phone-first sizing, touch controls and swipeable forecast.
+- V3 — Portability: versioned JSON backup/restore for complete deadline data.
+
+**Current version: V3**
+
+V3 adds in-app **Backup** and **Restore** controls using portable JSON snapshots of this app's local browser state.
