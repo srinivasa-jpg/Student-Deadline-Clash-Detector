@@ -18,4 +18,4 @@ A visual academic workload tool that detects deadline conflicts before they beco
 Each deadline contributes a priority score (1–3) plus an effort score (1–3). Multiple deadlines and high combined workload increase the day's pressure classification. The detector also flags high-priority items on consecutive days.
 
 ## Live Demo
-Live deployment URL will be added after deployment.
+🌐 https://student-deadline-clash-detector.onrender.com
